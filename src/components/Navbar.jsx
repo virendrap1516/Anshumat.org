@@ -40,10 +40,9 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="text-2xl font-bold text-slate-900 dark:text-white lg:text-3xl">
-            Anshumat
+          <Link to="/" className="text-2xl lg:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-800 via-gray-900 to-black dark:from-black dark:via-gray-950 dark:to-gray-900 animate-gradient">
+             Anshumat
           </Link>
-          
           {/* Desktop Navigation Links with Magic Underline */}
           <div className="hidden md:flex items-center h-full space-x-8">
             {navLinks.map((link) => (
