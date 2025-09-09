@@ -4,7 +4,9 @@ import { motion } from 'framer-motion';
 const Footer = () => {
   return (
     <motion.footer 
-      className="bg-slate-100 dark:bg-gray-800 text-slate-600 dark:text-slate-400 mt-auto border-t border-slate-200 dark:border-gray-700 py-6"
+      className="bg-gradient-to-br from-gray-900 via-gray-800 to-black 
+                dark:from-black dark:via-gray-950 dark:to-gray-900
+                text-slate-300 mt-auto border-t border-gray-700 py-6"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5, delay: 0.8 }}
