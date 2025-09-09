@@ -42,3 +42,7 @@ Deployment: Vercel.
  2. Run the application: `npm run dev` 🚀
 
 ## By default, the app will be available at http://localhost:5173. ▶️
+
+_Made with ❤️ by [Virendra Pawar](https://github.com/virendrap1516)_
+
+Email: Virendrapawar47@gmail.com 📧
