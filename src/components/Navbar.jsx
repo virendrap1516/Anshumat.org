@@ -49,7 +49,7 @@ const Navbar = () => {
               <div key={link.name} className="relative h-full flex items-center">
                 <NavLink 
                     to={link.path}
-                    className="text-slate-600 dark:text-slate-300 transition-colors duration-300 pb-1"
+                    className="text-slate-900 dark:text-slate-300 transition-colors duration-300 pb-1"
                 >
                   {link.name}
                 </NavLink>
