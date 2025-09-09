@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { FaUsers, FaLightbulb, FaHandsHelping } from 'react-icons/fa';
 import Hero from '../components/Hero';
 
-// Page load animation ke liye
+
 const pageVariants = {
   initial: { opacity: 0 },
   in: { opacity: 1 },
@@ -17,7 +17,6 @@ const pageTransition = {
   duration: 0.6,
 };
 
-// Scroll karke view mein aane waale elements ke liye animation
 const sectionVariants = {
   hidden: { opacity: 0, y: 50 },
   visible: { 
